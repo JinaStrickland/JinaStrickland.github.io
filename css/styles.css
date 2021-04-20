@@ -54,6 +54,9 @@
 #margin-add {
   margin-top: 3rem;
 }
+.project-image {
+  height: 250px;
+}
 
 /* items that I added */
 
@@ -486,7 +489,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 .img-thumbnail {
@@ -5381,6 +5384,16 @@ a.close.disabled {
 }
 
 .modal {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+  display: none;
+  width: 75%;
+  height: 95%;
+  overflow: hidden;
+  outline: 0; */
   position: fixed;
   top: 0;
   left: 0;
@@ -10134,6 +10147,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  display: flex;
+  align-items: center;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
